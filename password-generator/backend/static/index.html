@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strong Password Generator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>🔒 Strong Password Generator</h1>
+        <div id="generator" class="card">
+            <h2>Generate Password</h2>
+            <div class="input-group">
+                <label for="length">Length:</label>
+                <input type="number" id="length" min="1" max="128" value="12">
+            </div>
+            <div class="checkbox-group">
+                <label><input type="checkbox" id="uppercase" checked> Uppercase</label>
+                <label><input type="checkbox" id="lowercase" checked> Lowercase</label>
+                <label><input type="checkbox" id="digits" checked> Digits</label>
+                <label><input type="checkbox" id="special" checked> Special Characters</label>
+            </div>
+            <button id="generate" class="btn">Generate</button>
+            <div class="output">
+                <p id="generated-password"></p>
+                <button id="copy-password" style="display: none;" class="btn">Copy</button>
+            </div>
+        </div>
+        <div id="strength-checker" class="card">
+            <h2>Check Password Strength</h2>
+            <input type="text" id="password" class="input-field" placeholder="Enter password">
+            <button id="check-strength" class="btn">Check Strength</button>
+            <div class="strength-display">
+                <p id="password-strength"></p>
+                <div class="strength-bar">
+                    <div id="strength-level"></div>
+                </div>
+            </div>
+            <ul id="password-tips"></ul>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Yael Cohen - All rights reserved</p>
+    </footer>    
+    <script src="./script.js"></script>
+</body>
+
+</html>
