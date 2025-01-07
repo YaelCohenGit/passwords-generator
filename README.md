@@ -1,9 +1,9 @@
-# Secure Password Generator
+# Secure Password Generator 🔑
 
 ## Overview
 The **Secure Password Generator** is a customizable application designed to create strong and secure passwords. It allows users to specify password length, character types (letters, numbers, special symbols), and generates random passwords for immediate use.
 
-## Features
+## Features 🌟
 
 ### 1. **Customizable Password Generation**
    - **Password Length:** Users can select the desired length (e.g., between 8 and 20 characters).
@@ -13,16 +13,16 @@ The **Secure Password Generator** is a customizable application designed to crea
      - Numbers
      - Special symbols
 
-### 2. **Password Strength Assessment**
+### 2. **Password Strength Assessment**🔒
    - Displays an evaluation of password strength (e.g., Weak, Medium, Strong).
 
-### 3. **Copy to Clipboard**
+### 3. **Copy to Clipboard**📋🔄
    - A convenient button copies the generated password to the clipboard.
 
 ### 4. **Password Storage (Optional)**
    - Save generated passwords in an encrypted text file or display them temporarily during the session.
 
-## Technologies Used
+## Technologies Used 🛠️
 
 ### Backend
 - **Python:**
