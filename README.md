@@ -47,7 +47,7 @@ The **Secure Password Generator** is a customizable application designed to crea
 - Integration with browser extensions for autofill functionality.
 - Multi-language support for the user interface.
 
-## Contributing
+## Contributing 😁
 Contributions are welcome! Feel free to submit issues or pull requests for new features or bug fixes.
 
 ## License
